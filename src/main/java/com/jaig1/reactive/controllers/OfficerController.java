@@ -14,7 +14,7 @@ import reactor.core.publisher.Mono;
 public class OfficerController {
 
     @Autowired
-    private OfficerRepository repository;
+    private OfficerRepository repository; 
 
     @GetMapping
     public Flux<Officer> getAllOfficers() {
